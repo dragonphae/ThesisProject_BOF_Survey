@@ -1,0 +1,68 @@
+{
+    "title":"Demographics",
+    "instructions":"Please answer each question.",
+    "code":"",
+    "questions":[
+        {
+            "questiontype":"radiolist",
+            "instructions":"What is your primary platform for creative collaboration? Choose one option. Moving forward, think of this platform when answering questions unless instructed otherwise.",
+            "id":"radiolist_1",
+            "shuffle": "true",
+            "labels":[
+                "Minecraft",
+                "Archive of Our Own (AO3)",
+                "Tumblr",
+                "GitHub"
+            ]
+        },
+        {
+                "questiontype":"multi_field",
+                "instructions": "Which other platforms do you use for creative collaboration, or have used in the past?",
+                "id": "checklist_otherPlatforms",
+                "placeholder": "",
+                "height": "100"
+               
+              
+        },
+        {
+            "questiontype": "radiolist",
+            "instructions": "How long have you been using your primary platform?",
+            "id":"radiolist_platformUseTime",
+            "labels": [
+                "less than 6 months",
+                "6 months - 1 year",
+                "1 year - 2 years",
+                "2 years - 5 years",
+                "more than 5 years"
+            ]
+        },
+        {
+            "questiontype": "radiolist",
+            "instructions": "How often do you use your primary platform?",
+            "id":"radiolist_platformUseFrequency",
+            "labels": [
+                "2 times per month",
+                "between 2 - 4 times per month",
+                "once per week",
+                "multiple times per week",
+                "almost every day"
+            ]
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "What kinds of things do you make using your primary platform? (e.g., 3D structures, text posts, multi-chapter stories, software)",
+            "placeholder": "",
+            "id": "things_you_make_field",
+            "height": "100"
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "What kind of things do you make in collaboration with others on your primary platform?",
+            "placeholder": "",
+            "id": "things_you_make_with_others",
+            "height": "100"
+        }
+       
+    ]
+
+}

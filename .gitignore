@@ -1,0 +1,7 @@
+#ignore example files
+
+bofs_venv/bride-of-frankensystem-examples-master/
+bofs_venv/Lib/
+bofs_venv/Scripts/
+bofs_venv/Include/
+bofs_venv/pyvenv.cfg

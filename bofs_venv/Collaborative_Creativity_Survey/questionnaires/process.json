@@ -1,0 +1,29 @@
+{
+    "title":"Process",
+    "instructions":"Please answer each question.",
+    "code":"",
+    "questions":[
+        {"questiontype": "multi_field",
+        "id": "field_features_or_tools_collaborating",
+        "placeholder": "",
+        "instructions": "Within your primary platform for creative collaboration, which software features or tools do you use for collaborating?",
+        "height": "100"},
+        {"questiontype": "multi_field",
+        "id": "field_features_or_tools_making",
+        "placeholder": "",
+        "instructions": "Which software features of your primary platform do you use to create content? To make things or create experiences?",
+        "height": "100"
+        },
+        {"questiontype": "multi_field",
+        "placeholder": "",
+        "instructions": "Which communication channels do you use on your primary platform? (e.g., voice chat, text chat, interacting using a 3D avatar)",
+        "height": "100"
+        },
+        {"questiontype": "multi_field",
+        "placeholder": "",
+        "instructions": "Do you use any tools external to your primary platform to make and connect with others?",
+        "height": "100"
+        } 
+    ]
+
+}
